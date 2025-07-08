@@ -66,25 +66,25 @@ public class FloatingItem extends ItemEntity {
     @Override
     public void inactiveTick() {}
 
-    // Don't save or load
-    @Override
-    public void readAdditionalSaveData(CompoundTag nbt) {}
+    //// Don't save or load
+    // @Override
+    // public void readAdditionalSaveData(CompoundTag nbt) {}
 
-    @Override
-    public void addAdditionalSaveData(CompoundTag nbt) {}
+    // @Override
+    // public void addAdditionalSaveData(CompoundTag nbt) {}
 
-    @Override
-    public boolean save(CompoundTag nbt) {
-        return false;
-    }
+    // @Override
+    // public boolean save(CompoundTag nbt) {
+    //     return false;
+    // }
 
-    @Override
-    public CompoundTag saveWithoutId(CompoundTag nbt) {
-        return nbt;
-    }
+    // @Override
+    // public CompoundTag saveWithoutId(CompoundTag nbt) {
+    //     return nbt;
+    // }
 
-    @Override
-    public void load(CompoundTag nbt) {}
+    // @Override
+    // public void load(CompoundTag nbt) {}
 
     @Override
     public void setItem(ItemStack itemStack) {
